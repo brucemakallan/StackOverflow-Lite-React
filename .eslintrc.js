@@ -30,7 +30,9 @@ module.exports = {
         "no-unused-vars": ["error", { "args": "none" }],
         "eol-last": ["error", "always"],
         "react/jsx-uses-react": "error",
-        "react/jsx-uses-vars": "error"
+        "react/jsx-uses-vars": "error",
+        "react/prop-types": "error",
+        "max-len": [1, 100, 4]
     },
     globals: {
         page: true,

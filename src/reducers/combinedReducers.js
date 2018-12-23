@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import questionsReducer from './questionsReducer';
+import signupReducer from './signupReducer';
 
 const combinedReducers = combineReducers({
-	questionsReducer,
+	signupReducer,
 });
 
 export default combinedReducers;
