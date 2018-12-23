@@ -15,7 +15,7 @@ module.exports = {
         sourceType: "module",
         jsx: true,
         ecmaFeatures: {
-          experimentalObjectRestSpread: true
+            experimentalObjectRestSpread: true
         }
     },
     plugins: ["react", "import"],
@@ -28,6 +28,9 @@ module.exports = {
         curly: [2, "multi-line"],
         "no-shadow": "warn",
         "no-unused-vars": ["error", { "args": "none" }],
+        "eol-last": ["error", "always"],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
     },
     globals: {
         page: true,
