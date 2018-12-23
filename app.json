@@ -1,21 +1,13 @@
 {
   "name": "StackOverflow-Lite-React",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
-
-  ],
-  "stack": "heroku-18",
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
+  "version": "0.1.0",
+  "scripts": {},
+  "env": {},
+  "formation": {},
+  "addons": [],
+  "buildpacks": [],
+  "engines": {
+    "npm": "6.4.1",
+    "node": "8.12.0"
+  }
 }
