@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './signup.scss';
+import '../Signup/signup.scss';
 
-const Signup = ({ onChange, onSubmit }) => {
+const Login = ({ onChange, onSubmit }) => {
 	const createFormElement = (type, id, placeholder) => (
 		<div className="form-group" key={id}>
 			<input
@@ -18,11 +18,6 @@ const Signup = ({ onChange, onSubmit }) => {
 
 	const formElements = [
 		{
-			type: 'text',
-			id: 'fullName',
-			placeholder: 'Full name'
-		},
-		{
 			type: 'email',
 			id: 'email',
 			placeholder: 'email'
@@ -31,11 +26,6 @@ const Signup = ({ onChange, onSubmit }) => {
 			type: 'password',
 			id: 'password',
 			placeholder: 'Password'
-		},
-		{
-			type: 'password',
-			id: 'retypePassword',
-			placeholder: 'Retype password'
 		}
 	];
 
@@ -45,21 +35,21 @@ const Signup = ({ onChange, onSubmit }) => {
 				<img src="https://iviidev.info/downloads/images/questions.jpg" alt="poster" />
 			</div>
 			<form onSubmit={onSubmit} className="signup-form mt-4">
-				<h3>Create a new account</h3>
+				<h3>Login</h3>
 				{formElements.map(el => createFormElement(el.type, el.id, el.placeholder))}
-				<button type="submit" className="btn btn-primary">Register</button>
+				<button type="submit" className="btn btn-primary">Login</button>
 				<div className="mt-5 small">
-					<span className="mr-2">Already have an account?</span>
-					<a href="/login">Login</a>
+					<span className="mr-2">Don't have an account?</span>
+					<a href="/signup">Signup</a>
 				</div>
 			</form>
 		</div>
 	);
 };
 
-Signup.propTypes = {
+Login.propTypes = {
 	onChange: PropTypes.func.isRequired,
 	onSubmit: PropTypes.func.isRequired
 };
 
-export default Signup;
+export default Login;

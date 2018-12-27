@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Signup /> component renders correctly 1`] = `
+exports[`<Login /> component renders correctly 1`] = `
 ReactWrapper {
-  Symbol(enzyme.__unrendered__): <Signup
+  Symbol(enzyme.__unrendered__): <Login
     onChange={[MockFunction]}
     onSubmit={[MockFunction]}
   />,
@@ -40,20 +40,8 @@ ReactWrapper {
           class="signup-form mt-4"
         >
           <h3>
-            Create a new account
+            Login
           </h3>
-          <div
-            class="form-group"
-          >
-            <input
-              class="form-control"
-              id="fullName"
-              name="fullName"
-              placeholder="Full name"
-              required=""
-              type="text"
-            />
-          </div>
           <div
             class="form-group"
           >
@@ -78,23 +66,11 @@ ReactWrapper {
               type="password"
             />
           </div>
-          <div
-            class="form-group"
-          >
-            <input
-              class="form-control"
-              id="retypePassword"
-              name="retypePassword"
-              placeholder="Retype password"
-              required=""
-              type="password"
-            />
-          </div>
           <button
             class="btn btn-primary"
             type="submit"
           >
-            Register
+            Login
           </button>
           <div
             class="mt-5 small"
@@ -102,12 +78,12 @@ ReactWrapper {
             <span
               class="mr-2"
             >
-              Already have an account?
+              Don't have an account?
             </span>
             <a
-              href="/login"
+              href="/signup"
             >
-              Login
+              Signup
             </a>
           </div>
         </form>
@@ -129,21 +105,8 @@ ReactWrapper {
             onSubmit={[MockFunction]}
           >
             <h3>
-              Create a new account
+              Login
             </h3>
-            <div
-              className="form-group"
-            >
-              <input
-                className="form-control"
-                id="fullName"
-                name="fullName"
-                onChange={[MockFunction]}
-                placeholder="Full name"
-                required={true}
-                type="text"
-              />
-            </div>
             <div
               className="form-group"
             >
@@ -170,24 +133,11 @@ ReactWrapper {
                 type="password"
               />
             </div>
-            <div
-              className="form-group"
-            >
-              <input
-                className="form-control"
-                id="retypePassword"
-                name="retypePassword"
-                onChange={[MockFunction]}
-                placeholder="Retype password"
-                required={true}
-                type="password"
-              />
-            </div>
             <button
               className="btn btn-primary"
               type="submit"
             >
-              Register
+              Login
             </button>
             <div
               className="mt-5 small"
@@ -195,12 +145,12 @@ ReactWrapper {
               <span
                 className="mr-2"
               >
-                Already have an account?
+                Don't have an account?
               </span>
               <a
-                href="/login"
+                href="/signup"
               >
-                Login
+                Signup
               </a>
             </div>
           </form>,
@@ -254,20 +204,8 @@ ReactWrapper {
             class="signup-form mt-4"
           >
             <h3>
-              Create a new account
+              Login
             </h3>
-            <div
-              class="form-group"
-            >
-              <input
-                class="form-control"
-                id="fullName"
-                name="fullName"
-                placeholder="Full name"
-                required=""
-                type="text"
-              />
-            </div>
             <div
               class="form-group"
             >
@@ -292,23 +230,11 @@ ReactWrapper {
                 type="password"
               />
             </div>
-            <div
-              class="form-group"
-            >
-              <input
-                class="form-control"
-                id="retypePassword"
-                name="retypePassword"
-                placeholder="Retype password"
-                required=""
-                type="password"
-              />
-            </div>
             <button
               class="btn btn-primary"
               type="submit"
             >
-              Register
+              Login
             </button>
             <div
               class="mt-5 small"
@@ -316,12 +242,12 @@ ReactWrapper {
               <span
                 class="mr-2"
               >
-                Already have an account?
+                Don't have an account?
               </span>
               <a
-                href="/login"
+                href="/signup"
               >
-                Login
+                Signup
               </a>
             </div>
           </form>,
@@ -330,22 +256,9 @@ ReactWrapper {
           "props": Object {
             "children": Array [
               <h3>
-                Create a new account
+                Login
               </h3>,
               Array [
-                <div
-                  className="form-group"
-                >
-                  <input
-                    className="form-control"
-                    id="fullName"
-                    name="fullName"
-                    onChange={[MockFunction]}
-                    placeholder="Full name"
-                    required={true}
-                    type="text"
-                  />
-                </div>,
                 <div
                   className="form-group"
                 >
@@ -372,25 +285,12 @@ ReactWrapper {
                     type="password"
                   />
                 </div>,
-                <div
-                  className="form-group"
-                >
-                  <input
-                    className="form-control"
-                    id="retypePassword"
-                    name="retypePassword"
-                    onChange={[MockFunction]}
-                    placeholder="Retype password"
-                    required={true}
-                    type="password"
-                  />
-                </div>,
               ],
               <button
                 className="btn btn-primary"
                 type="submit"
               >
-                Register
+                Login
               </button>,
               <div
                 className="mt-5 small"
@@ -398,12 +298,12 @@ ReactWrapper {
                 <span
                   className="mr-2"
                 >
-                  Already have an account?
+                  Don't have an account?
                 </span>
                 <a
-                  href="/login"
+                  href="/signup"
                 >
-                  Login
+                  Signup
                 </a>
               </div>,
             ],
@@ -414,76 +314,18 @@ ReactWrapper {
           "rendered": Array [
             Object {
               "instance": <h3>
-                Create a new account
+                Login
               </h3>,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Create a new account",
+                "children": "Login",
               },
               "ref": null,
               "rendered": Array [
-                "Create a new account",
+                "Login",
               ],
               "type": "h3",
-            },
-            Object {
-              "instance": <div
-                class="form-group"
-              >
-                <input
-                  class="form-control"
-                  id="fullName"
-                  name="fullName"
-                  placeholder="Full name"
-                  required=""
-                  type="text"
-                />
-              </div>,
-              "key": "fullName",
-              "nodeType": "host",
-              "props": Object {
-                "children": <input
-                  className="form-control"
-                  id="fullName"
-                  name="fullName"
-                  onChange={[MockFunction]}
-                  placeholder="Full name"
-                  required={true}
-                  type="text"
-                />,
-                "className": "form-group",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": <input
-                    class="form-control"
-                    id="fullName"
-                    name="fullName"
-                    placeholder="Full name"
-                    required=""
-                    type="text"
-                  />,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "className": "form-control",
-                    "id": "fullName",
-                    "name": "fullName",
-                    "onChange": [MockFunction],
-                    "placeholder": "Full name",
-                    "required": true,
-                    "type": "text",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    undefined,
-                  ],
-                  "type": "input",
-                },
-              ],
-              "type": "div",
             },
             Object {
               "instance": <div
@@ -602,80 +444,22 @@ ReactWrapper {
               "type": "div",
             },
             Object {
-              "instance": <div
-                class="form-group"
-              >
-                <input
-                  class="form-control"
-                  id="retypePassword"
-                  name="retypePassword"
-                  placeholder="Retype password"
-                  required=""
-                  type="password"
-                />
-              </div>,
-              "key": "retypePassword",
-              "nodeType": "host",
-              "props": Object {
-                "children": <input
-                  className="form-control"
-                  id="retypePassword"
-                  name="retypePassword"
-                  onChange={[MockFunction]}
-                  placeholder="Retype password"
-                  required={true}
-                  type="password"
-                />,
-                "className": "form-group",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": <input
-                    class="form-control"
-                    id="retypePassword"
-                    name="retypePassword"
-                    placeholder="Retype password"
-                    required=""
-                    type="password"
-                  />,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "className": "form-control",
-                    "id": "retypePassword",
-                    "name": "retypePassword",
-                    "onChange": [MockFunction],
-                    "placeholder": "Retype password",
-                    "required": true,
-                    "type": "password",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    undefined,
-                  ],
-                  "type": "input",
-                },
-              ],
-              "type": "div",
-            },
-            Object {
               "instance": <button
                 class="btn btn-primary"
                 type="submit"
               >
-                Register
+                Login
               </button>,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Register",
+                "children": "Login",
                 "className": "btn btn-primary",
                 "type": "submit",
               },
               "ref": null,
               "rendered": Array [
-                "Register",
+                "Login",
               ],
               "type": "button",
             },
@@ -686,12 +470,12 @@ ReactWrapper {
                 <span
                   class="mr-2"
                 >
-                  Already have an account?
+                  Don't have an account?
                 </span>
                 <a
-                  href="/login"
+                  href="/signup"
                 >
-                  Login
+                  Signup
                 </a>
               </div>,
               "key": undefined,
@@ -701,12 +485,12 @@ ReactWrapper {
                   <span
                     className="mr-2"
                   >
-                    Already have an account?
+                    Don't have an account?
                   </span>,
                   <a
-                    href="/login"
+                    href="/signup"
                   >
-                    Login
+                    Signup
                   </a>,
                 ],
                 "className": "mt-5 small",
@@ -717,35 +501,35 @@ ReactWrapper {
                   "instance": <span
                     class="mr-2"
                   >
-                    Already have an account?
+                    Don't have an account?
                   </span>,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Already have an account?",
+                    "children": "Don't have an account?",
                     "className": "mr-2",
                   },
                   "ref": null,
                   "rendered": Array [
-                    "Already have an account?",
+                    "Don't have an account?",
                   ],
                   "type": "span",
                 },
                 Object {
                   "instance": <a
-                    href="/login"
+                    href="/signup"
                   >
-                    Login
+                    Signup
                   </a>,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Login",
-                    "href": "/login",
+                    "children": "Signup",
+                    "href": "/signup",
                   },
                   "ref": null,
                   "rendered": Array [
-                    "Login",
+                    "Signup",
                   ],
                   "type": "a",
                 },
@@ -786,20 +570,8 @@ ReactWrapper {
             class="signup-form mt-4"
           >
             <h3>
-              Create a new account
+              Login
             </h3>
-            <div
-              class="form-group"
-            >
-              <input
-                class="form-control"
-                id="fullName"
-                name="fullName"
-                placeholder="Full name"
-                required=""
-                type="text"
-              />
-            </div>
             <div
               class="form-group"
             >
@@ -824,23 +596,11 @@ ReactWrapper {
                 type="password"
               />
             </div>
-            <div
-              class="form-group"
-            >
-              <input
-                class="form-control"
-                id="retypePassword"
-                name="retypePassword"
-                placeholder="Retype password"
-                required=""
-                type="password"
-              />
-            </div>
             <button
               class="btn btn-primary"
               type="submit"
             >
-              Register
+              Login
             </button>
             <div
               class="mt-5 small"
@@ -848,12 +608,12 @@ ReactWrapper {
               <span
                 class="mr-2"
               >
-                Already have an account?
+                Don't have an account?
               </span>
               <a
-                href="/login"
+                href="/signup"
               >
-                Login
+                Signup
               </a>
             </div>
           </form>
@@ -875,21 +635,8 @@ ReactWrapper {
               onSubmit={[MockFunction]}
             >
               <h3>
-                Create a new account
+                Login
               </h3>
-              <div
-                className="form-group"
-              >
-                <input
-                  className="form-control"
-                  id="fullName"
-                  name="fullName"
-                  onChange={[MockFunction]}
-                  placeholder="Full name"
-                  required={true}
-                  type="text"
-                />
-              </div>
               <div
                 className="form-group"
               >
@@ -916,24 +663,11 @@ ReactWrapper {
                   type="password"
                 />
               </div>
-              <div
-                className="form-group"
-              >
-                <input
-                  className="form-control"
-                  id="retypePassword"
-                  name="retypePassword"
-                  onChange={[MockFunction]}
-                  placeholder="Retype password"
-                  required={true}
-                  type="password"
-                />
-              </div>
               <button
                 className="btn btn-primary"
                 type="submit"
               >
-                Register
+                Login
               </button>
               <div
                 className="mt-5 small"
@@ -941,12 +675,12 @@ ReactWrapper {
                 <span
                   className="mr-2"
                 >
-                  Already have an account?
+                  Don't have an account?
                 </span>
                 <a
-                  href="/login"
+                  href="/signup"
                 >
-                  Login
+                  Signup
                 </a>
               </div>
             </form>,
@@ -1000,20 +734,8 @@ ReactWrapper {
               class="signup-form mt-4"
             >
               <h3>
-                Create a new account
+                Login
               </h3>
-              <div
-                class="form-group"
-              >
-                <input
-                  class="form-control"
-                  id="fullName"
-                  name="fullName"
-                  placeholder="Full name"
-                  required=""
-                  type="text"
-                />
-              </div>
               <div
                 class="form-group"
               >
@@ -1038,23 +760,11 @@ ReactWrapper {
                   type="password"
                 />
               </div>
-              <div
-                class="form-group"
-              >
-                <input
-                  class="form-control"
-                  id="retypePassword"
-                  name="retypePassword"
-                  placeholder="Retype password"
-                  required=""
-                  type="password"
-                />
-              </div>
               <button
                 class="btn btn-primary"
                 type="submit"
               >
-                Register
+                Login
               </button>
               <div
                 class="mt-5 small"
@@ -1062,12 +772,12 @@ ReactWrapper {
                 <span
                   class="mr-2"
                 >
-                  Already have an account?
+                  Don't have an account?
                 </span>
                 <a
-                  href="/login"
+                  href="/signup"
                 >
-                  Login
+                  Signup
                 </a>
               </div>
             </form>,
@@ -1076,22 +786,9 @@ ReactWrapper {
             "props": Object {
               "children": Array [
                 <h3>
-                  Create a new account
+                  Login
                 </h3>,
                 Array [
-                  <div
-                    className="form-group"
-                  >
-                    <input
-                      className="form-control"
-                      id="fullName"
-                      name="fullName"
-                      onChange={[MockFunction]}
-                      placeholder="Full name"
-                      required={true}
-                      type="text"
-                    />
-                  </div>,
                   <div
                     className="form-group"
                   >
@@ -1118,25 +815,12 @@ ReactWrapper {
                       type="password"
                     />
                   </div>,
-                  <div
-                    className="form-group"
-                  >
-                    <input
-                      className="form-control"
-                      id="retypePassword"
-                      name="retypePassword"
-                      onChange={[MockFunction]}
-                      placeholder="Retype password"
-                      required={true}
-                      type="password"
-                    />
-                  </div>,
                 ],
                 <button
                   className="btn btn-primary"
                   type="submit"
                 >
-                  Register
+                  Login
                 </button>,
                 <div
                   className="mt-5 small"
@@ -1144,12 +828,12 @@ ReactWrapper {
                   <span
                     className="mr-2"
                   >
-                    Already have an account?
+                    Don't have an account?
                   </span>
                   <a
-                    href="/login"
+                    href="/signup"
                   >
-                    Login
+                    Signup
                   </a>
                 </div>,
               ],
@@ -1160,76 +844,18 @@ ReactWrapper {
             "rendered": Array [
               Object {
                 "instance": <h3>
-                  Create a new account
+                  Login
                 </h3>,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Create a new account",
+                  "children": "Login",
                 },
                 "ref": null,
                 "rendered": Array [
-                  "Create a new account",
+                  "Login",
                 ],
                 "type": "h3",
-              },
-              Object {
-                "instance": <div
-                  class="form-group"
-                >
-                  <input
-                    class="form-control"
-                    id="fullName"
-                    name="fullName"
-                    placeholder="Full name"
-                    required=""
-                    type="text"
-                  />
-                </div>,
-                "key": "fullName",
-                "nodeType": "host",
-                "props": Object {
-                  "children": <input
-                    className="form-control"
-                    id="fullName"
-                    name="fullName"
-                    onChange={[MockFunction]}
-                    placeholder="Full name"
-                    required={true}
-                    type="text"
-                  />,
-                  "className": "form-group",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": <input
-                      class="form-control"
-                      id="fullName"
-                      name="fullName"
-                      placeholder="Full name"
-                      required=""
-                      type="text"
-                    />,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "form-control",
-                      "id": "fullName",
-                      "name": "fullName",
-                      "onChange": [MockFunction],
-                      "placeholder": "Full name",
-                      "required": true,
-                      "type": "text",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      undefined,
-                    ],
-                    "type": "input",
-                  },
-                ],
-                "type": "div",
               },
               Object {
                 "instance": <div
@@ -1348,80 +974,22 @@ ReactWrapper {
                 "type": "div",
               },
               Object {
-                "instance": <div
-                  class="form-group"
-                >
-                  <input
-                    class="form-control"
-                    id="retypePassword"
-                    name="retypePassword"
-                    placeholder="Retype password"
-                    required=""
-                    type="password"
-                  />
-                </div>,
-                "key": "retypePassword",
-                "nodeType": "host",
-                "props": Object {
-                  "children": <input
-                    className="form-control"
-                    id="retypePassword"
-                    name="retypePassword"
-                    onChange={[MockFunction]}
-                    placeholder="Retype password"
-                    required={true}
-                    type="password"
-                  />,
-                  "className": "form-group",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": <input
-                      class="form-control"
-                      id="retypePassword"
-                      name="retypePassword"
-                      placeholder="Retype password"
-                      required=""
-                      type="password"
-                    />,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "form-control",
-                      "id": "retypePassword",
-                      "name": "retypePassword",
-                      "onChange": [MockFunction],
-                      "placeholder": "Retype password",
-                      "required": true,
-                      "type": "password",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      undefined,
-                    ],
-                    "type": "input",
-                  },
-                ],
-                "type": "div",
-              },
-              Object {
                 "instance": <button
                   class="btn btn-primary"
                   type="submit"
                 >
-                  Register
+                  Login
                 </button>,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Register",
+                  "children": "Login",
                   "className": "btn btn-primary",
                   "type": "submit",
                 },
                 "ref": null,
                 "rendered": Array [
-                  "Register",
+                  "Login",
                 ],
                 "type": "button",
               },
@@ -1432,12 +1000,12 @@ ReactWrapper {
                   <span
                     class="mr-2"
                   >
-                    Already have an account?
+                    Don't have an account?
                   </span>
                   <a
-                    href="/login"
+                    href="/signup"
                   >
-                    Login
+                    Signup
                   </a>
                 </div>,
                 "key": undefined,
@@ -1447,12 +1015,12 @@ ReactWrapper {
                     <span
                       className="mr-2"
                     >
-                      Already have an account?
+                      Don't have an account?
                     </span>,
                     <a
-                      href="/login"
+                      href="/signup"
                     >
-                      Login
+                      Signup
                     </a>,
                   ],
                   "className": "mt-5 small",
@@ -1463,35 +1031,35 @@ ReactWrapper {
                     "instance": <span
                       class="mr-2"
                     >
-                      Already have an account?
+                      Don't have an account?
                     </span>,
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Already have an account?",
+                      "children": "Don't have an account?",
                       "className": "mr-2",
                     },
                     "ref": null,
                     "rendered": Array [
-                      "Already have an account?",
+                      "Don't have an account?",
                     ],
                     "type": "span",
                   },
                   Object {
                     "instance": <a
-                      href="/login"
+                      href="/signup"
                     >
-                      Login
+                      Signup
                     </a>,
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Login",
-                      "href": "/login",
+                      "children": "Signup",
+                      "href": "/signup",
                     },
                     "ref": null,
                     "rendered": Array [
-                      "Login",
+                      "Signup",
                     ],
                     "type": "a",
                   },

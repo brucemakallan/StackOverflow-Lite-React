@@ -6,6 +6,12 @@ const initialState = {
 			password: '',
 			retypePassword: ''
 		}
+	},
+	loginReducer: {
+		user: {
+			email: '',
+			password: ''
+		}
 	}
 };
 
