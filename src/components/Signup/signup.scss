@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+$bodyFontFamily: 'Montserrat', sans-serif;
+$headingFontFamily: 'Raleway', sans-serif;
+
+body {
+  font-family: $bodyFontFamily;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headingFontFamily;
+}
+
+.signup-box {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 0;
+
+  .signup-image, .signup-form {
+    flex-grow: 1;
+    width: 50%;
+  }
+  .signup-image {
+    padding: 5px;
+    img {
+      padding: 5px;
+      border: 1px solid #dddddd;
+      width: 100%;
+    }
+  }
+  .signup-form {
+    padding: 30px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .signup-box {
+    .signup-image, .signup-form {
+      width: 100%;
+    }
+  }
+}
