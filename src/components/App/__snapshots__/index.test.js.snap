@@ -24,6 +24,11 @@ ShallowWrapper {
             exact={true}
             path="/signup"
           />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/login"
+          />
         </Switch>
       </React.Fragment>,
       "history": Object {
@@ -57,6 +62,11 @@ ShallowWrapper {
             exact={true}
             path="/signup"
           />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/login"
+          />
         </Switch>,
       },
       "ref": null,
@@ -65,26 +75,48 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Route
-            component={[Function]}
-            exact={true}
-            path="/signup"
-          />,
+          "children": Array [
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/signup"
+            />,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/login"
+            />,
+          ],
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "component": [Function],
-            "exact": true,
-            "path": "/signup",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/signup",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/login",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
       "type": Symbol(react.fragment),
@@ -103,6 +135,11 @@ ShallowWrapper {
               component={[Function]}
               exact={true}
               path="/signup"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/login"
             />
           </Switch>
         </React.Fragment>,
@@ -137,6 +174,11 @@ ShallowWrapper {
               exact={true}
               path="/signup"
             />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/login"
+            />
           </Switch>,
         },
         "ref": null,
@@ -145,26 +187,48 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Route
-              component={[Function]}
-              exact={true}
-              path="/signup"
-            />,
+            "children": Array [
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/signup"
+              />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/login"
+              />,
+            ],
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "exact": true,
-              "path": "/signup",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/signup",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
             },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/login",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
         "type": Symbol(react.fragment),
