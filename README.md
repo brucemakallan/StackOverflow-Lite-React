@@ -13,14 +13,16 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 
 ### Heroku App
 https://stackoverflowlite-react-stage.herokuapp.com 
+*You will be redirected to the Registration page to create an account*
 
 ### Setup Information
 
 Clone the repo:
 `git clone https://github.com/brucemakallan/StackOverflow-Lite-React.git`
 
-Run the app:
-`npm start`
+Run the app locally:
+`npm install`
+`npm run start:dev`
 
 Run tests with coverage report:
 `npm test -- -u --coverage`

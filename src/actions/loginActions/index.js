@@ -20,6 +20,7 @@ const loginThunk = user => (dispatch) => {
 	return axios.post(apiUrl, user)
 		.then((response) => {
 			dispatch(loginSuccess(response.data));
+			window.location.replace('/');
 		})
 		.catch((error) => {
 			dispatch(errorAction(error.response.data.status_code));

@@ -1,0 +1,1139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Answer /> component tests renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Answer
+    answer={
+      Object {
+        "accepted": false,
+        "answer": "This is a sample answer",
+        "date_posted": "2018-12-28 07:43:31",
+        "id": 2,
+        "question_id": 1,
+        "user_id": 13,
+        "votes": 12,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="title"
+        >
+          This is a sample answer
+        </div>,
+        <div
+          className="date small"
+        >
+          2018-12-28 07:43:31
+        </div>,
+        <div
+          className="answer-footer"
+        >
+          <div
+            className="votes children"
+          >
+            <FontAwesomeIcon
+              border={false}
+              className="icon"
+              fixedWidth={false}
+              flip={null}
+              icon="thumbs-up"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              title="Up-vote"
+              transform={null}
+            />
+            <FontAwesomeIcon
+              border={false}
+              className="icon"
+              fixedWidth={false}
+              flip={null}
+              icon="thumbs-down"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              title="Down-vote"
+              transform={null}
+            />
+            <span
+              className="accent-color"
+            >
+              12
+               Votes
+            </span>
+          </div>
+          <div
+            className="options children"
+          >
+            <FontAwesomeIcon
+              border={false}
+              className="icon green"
+              fixedWidth={false}
+              flip={null}
+              icon="check"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              title="Accept"
+              transform={null}
+            />
+            <FontAwesomeIcon
+              border={false}
+              className="icon green"
+              fixedWidth={false}
+              flip={null}
+              icon="pencil-alt"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              title="Edit"
+              transform={null}
+            />
+            <FontAwesomeIcon
+              border={false}
+              className="icon red"
+              fixedWidth={false}
+              flip={null}
+              icon="trash"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              title="Delete"
+              transform={null}
+            />
+          </div>
+        </div>,
+      ],
+      "className": "answer-card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This is a sample answer",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "This is a sample answer",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "2018-12-28 07:43:31",
+          "className": "date small",
+        },
+        "ref": null,
+        "rendered": "2018-12-28 07:43:31",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="votes children"
+            >
+              <FontAwesomeIcon
+                border={false}
+                className="icon"
+                fixedWidth={false}
+                flip={null}
+                icon="thumbs-up"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Up-vote"
+                transform={null}
+              />
+              <FontAwesomeIcon
+                border={false}
+                className="icon"
+                fixedWidth={false}
+                flip={null}
+                icon="thumbs-down"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Down-vote"
+                transform={null}
+              />
+              <span
+                className="accent-color"
+              >
+                12
+                 Votes
+              </span>
+            </div>,
+            <div
+              className="options children"
+            >
+              <FontAwesomeIcon
+                border={false}
+                className="icon green"
+                fixedWidth={false}
+                flip={null}
+                icon="check"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Accept"
+                transform={null}
+              />
+              <FontAwesomeIcon
+                border={false}
+                className="icon green"
+                fixedWidth={false}
+                flip={null}
+                icon="pencil-alt"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Edit"
+                transform={null}
+              />
+              <FontAwesomeIcon
+                border={false}
+                className="icon red"
+                fixedWidth={false}
+                flip={null}
+                icon="trash"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Delete"
+                transform={null}
+              />
+            </div>,
+          ],
+          "className": "answer-footer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="thumbs-up"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Up-vote"
+                  transform={null}
+                />,
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="thumbs-down"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Down-vote"
+                  transform={null}
+                />,
+                <span
+                  className="accent-color"
+                >
+                  12
+                   Votes
+                </span>,
+              ],
+              "className": "votes children",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "border": false,
+                  "className": "icon",
+                  "fixedWidth": false,
+                  "flip": null,
+                  "icon": "thumbs-up",
+                  "inverse": false,
+                  "listItem": false,
+                  "mask": null,
+                  "pull": null,
+                  "pulse": false,
+                  "rotation": null,
+                  "size": null,
+                  "spin": false,
+                  "symbol": false,
+                  "title": "Up-vote",
+                  "transform": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "border": false,
+                  "className": "icon",
+                  "fixedWidth": false,
+                  "flip": null,
+                  "icon": "thumbs-down",
+                  "inverse": false,
+                  "listItem": false,
+                  "mask": null,
+                  "pull": null,
+                  "pulse": false,
+                  "rotation": null,
+                  "size": null,
+                  "spin": false,
+                  "symbol": false,
+                  "title": "Down-vote",
+                  "transform": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    12,
+                    " Votes",
+                  ],
+                  "className": "accent-color",
+                },
+                "ref": null,
+                "rendered": Array [
+                  12,
+                  " Votes",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon green"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="check"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Accept"
+                  transform={null}
+                />,
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon green"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="pencil-alt"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Edit"
+                  transform={null}
+                />,
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon red"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="trash"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Delete"
+                  transform={null}
+                />,
+              ],
+              "className": "options children",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "border": false,
+                  "className": "icon green",
+                  "fixedWidth": false,
+                  "flip": null,
+                  "icon": "check",
+                  "inverse": false,
+                  "listItem": false,
+                  "mask": null,
+                  "pull": null,
+                  "pulse": false,
+                  "rotation": null,
+                  "size": null,
+                  "spin": false,
+                  "symbol": false,
+                  "title": "Accept",
+                  "transform": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "border": false,
+                  "className": "icon green",
+                  "fixedWidth": false,
+                  "flip": null,
+                  "icon": "pencil-alt",
+                  "inverse": false,
+                  "listItem": false,
+                  "mask": null,
+                  "pull": null,
+                  "pulse": false,
+                  "rotation": null,
+                  "size": null,
+                  "spin": false,
+                  "symbol": false,
+                  "title": "Edit",
+                  "transform": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "border": false,
+                  "className": "icon red",
+                  "fixedWidth": false,
+                  "flip": null,
+                  "icon": "trash",
+                  "inverse": false,
+                  "listItem": false,
+                  "mask": null,
+                  "pull": null,
+                  "pulse": false,
+                  "rotation": null,
+                  "size": null,
+                  "spin": false,
+                  "symbol": false,
+                  "title": "Delete",
+                  "transform": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="title"
+          >
+            This is a sample answer
+          </div>,
+          <div
+            className="date small"
+          >
+            2018-12-28 07:43:31
+          </div>,
+          <div
+            className="answer-footer"
+          >
+            <div
+              className="votes children"
+            >
+              <FontAwesomeIcon
+                border={false}
+                className="icon"
+                fixedWidth={false}
+                flip={null}
+                icon="thumbs-up"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Up-vote"
+                transform={null}
+              />
+              <FontAwesomeIcon
+                border={false}
+                className="icon"
+                fixedWidth={false}
+                flip={null}
+                icon="thumbs-down"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Down-vote"
+                transform={null}
+              />
+              <span
+                className="accent-color"
+              >
+                12
+                 Votes
+              </span>
+            </div>
+            <div
+              className="options children"
+            >
+              <FontAwesomeIcon
+                border={false}
+                className="icon green"
+                fixedWidth={false}
+                flip={null}
+                icon="check"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Accept"
+                transform={null}
+              />
+              <FontAwesomeIcon
+                border={false}
+                className="icon green"
+                fixedWidth={false}
+                flip={null}
+                icon="pencil-alt"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Edit"
+                transform={null}
+              />
+              <FontAwesomeIcon
+                border={false}
+                className="icon red"
+                fixedWidth={false}
+                flip={null}
+                icon="trash"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title="Delete"
+                transform={null}
+              />
+            </div>
+          </div>,
+        ],
+        "className": "answer-card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This is a sample answer",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "This is a sample answer",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "2018-12-28 07:43:31",
+            "className": "date small",
+          },
+          "ref": null,
+          "rendered": "2018-12-28 07:43:31",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="votes children"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="thumbs-up"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Up-vote"
+                  transform={null}
+                />
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="thumbs-down"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Down-vote"
+                  transform={null}
+                />
+                <span
+                  className="accent-color"
+                >
+                  12
+                   Votes
+                </span>
+              </div>,
+              <div
+                className="options children"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon green"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="check"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Accept"
+                  transform={null}
+                />
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon green"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="pencil-alt"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Edit"
+                  transform={null}
+                />
+                <FontAwesomeIcon
+                  border={false}
+                  className="icon red"
+                  fixedWidth={false}
+                  flip={null}
+                  icon="trash"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title="Delete"
+                  transform={null}
+                />
+              </div>,
+            ],
+            "className": "answer-footer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <FontAwesomeIcon
+                    border={false}
+                    className="icon"
+                    fixedWidth={false}
+                    flip={null}
+                    icon="thumbs-up"
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size={null}
+                    spin={false}
+                    symbol={false}
+                    title="Up-vote"
+                    transform={null}
+                  />,
+                  <FontAwesomeIcon
+                    border={false}
+                    className="icon"
+                    fixedWidth={false}
+                    flip={null}
+                    icon="thumbs-down"
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size={null}
+                    spin={false}
+                    symbol={false}
+                    title="Down-vote"
+                    transform={null}
+                  />,
+                  <span
+                    className="accent-color"
+                  >
+                    12
+                     Votes
+                  </span>,
+                ],
+                "className": "votes children",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "border": false,
+                    "className": "icon",
+                    "fixedWidth": false,
+                    "flip": null,
+                    "icon": "thumbs-up",
+                    "inverse": false,
+                    "listItem": false,
+                    "mask": null,
+                    "pull": null,
+                    "pulse": false,
+                    "rotation": null,
+                    "size": null,
+                    "spin": false,
+                    "symbol": false,
+                    "title": "Up-vote",
+                    "transform": null,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "border": false,
+                    "className": "icon",
+                    "fixedWidth": false,
+                    "flip": null,
+                    "icon": "thumbs-down",
+                    "inverse": false,
+                    "listItem": false,
+                    "mask": null,
+                    "pull": null,
+                    "pulse": false,
+                    "rotation": null,
+                    "size": null,
+                    "spin": false,
+                    "symbol": false,
+                    "title": "Down-vote",
+                    "transform": null,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      12,
+                      " Votes",
+                    ],
+                    "className": "accent-color",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    12,
+                    " Votes",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <FontAwesomeIcon
+                    border={false}
+                    className="icon green"
+                    fixedWidth={false}
+                    flip={null}
+                    icon="check"
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size={null}
+                    spin={false}
+                    symbol={false}
+                    title="Accept"
+                    transform={null}
+                  />,
+                  <FontAwesomeIcon
+                    border={false}
+                    className="icon green"
+                    fixedWidth={false}
+                    flip={null}
+                    icon="pencil-alt"
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size={null}
+                    spin={false}
+                    symbol={false}
+                    title="Edit"
+                    transform={null}
+                  />,
+                  <FontAwesomeIcon
+                    border={false}
+                    className="icon red"
+                    fixedWidth={false}
+                    flip={null}
+                    icon="trash"
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size={null}
+                    spin={false}
+                    symbol={false}
+                    title="Delete"
+                    transform={null}
+                  />,
+                ],
+                "className": "options children",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "border": false,
+                    "className": "icon green",
+                    "fixedWidth": false,
+                    "flip": null,
+                    "icon": "check",
+                    "inverse": false,
+                    "listItem": false,
+                    "mask": null,
+                    "pull": null,
+                    "pulse": false,
+                    "rotation": null,
+                    "size": null,
+                    "spin": false,
+                    "symbol": false,
+                    "title": "Accept",
+                    "transform": null,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "border": false,
+                    "className": "icon green",
+                    "fixedWidth": false,
+                    "flip": null,
+                    "icon": "pencil-alt",
+                    "inverse": false,
+                    "listItem": false,
+                    "mask": null,
+                    "pull": null,
+                    "pulse": false,
+                    "rotation": null,
+                    "size": null,
+                    "spin": false,
+                    "symbol": false,
+                    "title": "Edit",
+                    "transform": null,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "border": false,
+                    "className": "icon red",
+                    "fixedWidth": false,
+                    "flip": null,
+                    "icon": "trash",
+                    "inverse": false,
+                    "listItem": false,
+                    "mask": null,
+                    "pull": null,
+                    "pulse": false,
+                    "rotation": null,
+                    "size": null,
+                    "spin": false,
+                    "symbol": false,
+                    "title": "Delete",
+                    "transform": null,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

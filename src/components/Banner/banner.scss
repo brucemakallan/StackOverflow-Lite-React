@@ -1,0 +1,40 @@
+.banner {
+  .poster {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-image: url("https://iviidev.info/downloads/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: 0 -400px;
+    background-size: cover;
+    color: #ffffff;
+
+    .intro {
+      padding: 30px;
+      width: 100%;
+    }
+    .signup-msg {
+      background-color: #00000044;
+      padding: 20px 0;
+      width: 100%;
+    }
+  }
+
+  
+}
+
+@media all and (max-width: 800px) {
+  .poster {
+    height: auto !important;
+    background-position: 0 0 !important;
+
+    .main-heading {
+      font-size: 30px;
+    }
+  }
+}
+

@@ -1,0 +1,1240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> component tests redirects if full name is not set 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavBar
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "46vmpp",
+          "pathname": "/signup",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          StackOverflow-Lite
+        </a>,
+        <button
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          className="navbar-toggler"
+          data-target="#navbarSupportedContent"
+          data-toggle="collapse"
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>,
+        <div
+          className="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul
+            className="navbar-nav mr-auto"
+          >
+            <li
+              className="nav-item active"
+            >
+              <a
+                className="nav-link"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+          </ul>
+          <form
+            className="form-inline my-2 my-lg-0"
+          >
+            <label
+              className="mr-4 text-white small"
+            />
+            <input
+              aria-label="Search"
+              className="form-control mr-sm-2"
+              placeholder="Search"
+              type="search"
+            />
+            <button
+              className="btn btn-outline-success my-2 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>,
+      ],
+      "className": "navbar navbar-expand-lg navbar-dark bg-dark",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "StackOverflow-Lite",
+          "className": "navbar-brand",
+          "href": "/",
+        },
+        "ref": null,
+        "rendered": "StackOverflow-Lite",
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "aria-controls": "navbarSupportedContent",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation",
+          "children": <span
+            className="navbar-toggler-icon"
+          />,
+          "className": "navbar-toggler",
+          "data-target": "#navbarSupportedContent",
+          "data-toggle": "collapse",
+          "type": "button",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "navbar-toggler-icon",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ul
+              className="navbar-nav mr-auto"
+            >
+              <li
+                className="nav-item active"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+            </ul>,
+            <form
+              className="form-inline my-2 my-lg-0"
+            >
+              <label
+                className="mr-4 text-white small"
+              />
+              <input
+                aria-label="Search"
+                className="form-control mr-sm-2"
+                placeholder="Search"
+                type="search"
+              />
+              <button
+                className="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>,
+          ],
+          "className": "collapse navbar-collapse",
+          "id": "navbarSupportedContent",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <li
+                className="nav-item active"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>,
+              "className": "navbar-nav mr-auto",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="nav-link"
+                  href="/"
+                >
+                  Home
+                </a>,
+                "className": "nav-item active",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Home",
+                  "className": "nav-link",
+                  "href": "/",
+                },
+                "ref": null,
+                "rendered": "Home",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  className="mr-4 text-white small"
+                />,
+                <input
+                  aria-label="Search"
+                  className="form-control mr-sm-2"
+                  placeholder="Search"
+                  type="search"
+                />,
+                <button
+                  className="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>,
+              ],
+              "className": "form-inline my-2 my-lg-0",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "mr-4 text-white small",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-label": "Search",
+                  "className": "form-control mr-sm-2",
+                  "placeholder": "Search",
+                  "type": "search",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Search",
+                  "className": "btn btn-outline-success my-2 my-sm-0",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": "Search",
+                "type": "button",
+              },
+            ],
+            "type": "form",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            className="navbar-brand"
+            href="/"
+          >
+            StackOverflow-Lite
+          </a>,
+          <button
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-target="#navbarSupportedContent"
+            data-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>,
+          <div
+            className="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul
+              className="navbar-nav mr-auto"
+            >
+              <li
+                className="nav-item active"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+            </ul>
+            <form
+              className="form-inline my-2 my-lg-0"
+            >
+              <label
+                className="mr-4 text-white small"
+              />
+              <input
+                aria-label="Search"
+                className="form-control mr-sm-2"
+                placeholder="Search"
+                type="search"
+              />
+              <button
+                className="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>,
+        ],
+        "className": "navbar navbar-expand-lg navbar-dark bg-dark",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "StackOverflow-Lite",
+            "className": "navbar-brand",
+            "href": "/",
+          },
+          "ref": null,
+          "rendered": "StackOverflow-Lite",
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-controls": "navbarSupportedContent",
+            "aria-expanded": "false",
+            "aria-label": "Toggle navigation",
+            "children": <span
+              className="navbar-toggler-icon"
+            />,
+            "className": "navbar-toggler",
+            "data-target": "#navbarSupportedContent",
+            "data-toggle": "collapse",
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "navbar-toggler-icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ul
+                className="navbar-nav mr-auto"
+              >
+                <li
+                  className="nav-item active"
+                >
+                  <a
+                    className="nav-link"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+              </ul>,
+              <form
+                className="form-inline my-2 my-lg-0"
+              >
+                <label
+                  className="mr-4 text-white small"
+                />
+                <input
+                  aria-label="Search"
+                  className="form-control mr-sm-2"
+                  placeholder="Search"
+                  type="search"
+                />
+                <button
+                  className="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>,
+            ],
+            "className": "collapse navbar-collapse",
+            "id": "navbarSupportedContent",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <li
+                  className="nav-item active"
+                >
+                  <a
+                    className="nav-link"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>,
+                "className": "navbar-nav mr-auto",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="nav-link"
+                    href="/"
+                  >
+                    Home
+                  </a>,
+                  "className": "nav-item active",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Home",
+                    "className": "nav-link",
+                    "href": "/",
+                  },
+                  "ref": null,
+                  "rendered": "Home",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              "type": "ul",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    className="mr-4 text-white small"
+                  />,
+                  <input
+                    aria-label="Search"
+                    className="form-control mr-sm-2"
+                    placeholder="Search"
+                    type="search"
+                  />,
+                  <button
+                    className="btn btn-outline-success my-2 my-sm-0"
+                    type="submit"
+                  >
+                    Search
+                  </button>,
+                ],
+                "className": "form-inline my-2 my-lg-0",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "mr-4 text-white small",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-label": "Search",
+                    "className": "form-control mr-sm-2",
+                    "placeholder": "Search",
+                    "type": "search",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Search",
+                    "className": "btn btn-outline-success my-2 my-sm-0",
+                    "type": "submit",
+                  },
+                  "ref": null,
+                  "rendered": "Search",
+                  "type": "button",
+                },
+              ],
+              "type": "form",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<NavBar /> component tests renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavBar
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          StackOverflow-Lite
+        </a>,
+        <button
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          className="navbar-toggler"
+          data-target="#navbarSupportedContent"
+          data-toggle="collapse"
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>,
+        <div
+          className="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul
+            className="navbar-nav mr-auto"
+          >
+            <li
+              className="nav-item active"
+            >
+              <a
+                className="nav-link"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+          </ul>
+          <form
+            className="form-inline my-2 my-lg-0"
+          >
+            <label
+              className="mr-4 text-white small"
+            >
+              Jack Katto
+            </label>
+            <input
+              aria-label="Search"
+              className="form-control mr-sm-2"
+              placeholder="Search"
+              type="search"
+            />
+            <button
+              className="btn btn-outline-success my-2 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>,
+      ],
+      "className": "navbar navbar-expand-lg navbar-dark bg-dark",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "StackOverflow-Lite",
+          "className": "navbar-brand",
+          "href": "/",
+        },
+        "ref": null,
+        "rendered": "StackOverflow-Lite",
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "aria-controls": "navbarSupportedContent",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation",
+          "children": <span
+            className="navbar-toggler-icon"
+          />,
+          "className": "navbar-toggler",
+          "data-target": "#navbarSupportedContent",
+          "data-toggle": "collapse",
+          "type": "button",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "navbar-toggler-icon",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ul
+              className="navbar-nav mr-auto"
+            >
+              <li
+                className="nav-item active"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+            </ul>,
+            <form
+              className="form-inline my-2 my-lg-0"
+            >
+              <label
+                className="mr-4 text-white small"
+              >
+                Jack Katto
+              </label>
+              <input
+                aria-label="Search"
+                className="form-control mr-sm-2"
+                placeholder="Search"
+                type="search"
+              />
+              <button
+                className="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>,
+          ],
+          "className": "collapse navbar-collapse",
+          "id": "navbarSupportedContent",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <li
+                className="nav-item active"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>,
+              "className": "navbar-nav mr-auto",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="nav-link"
+                  href="/"
+                >
+                  Home
+                </a>,
+                "className": "nav-item active",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Home",
+                  "className": "nav-link",
+                  "href": "/",
+                },
+                "ref": null,
+                "rendered": "Home",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  className="mr-4 text-white small"
+                >
+                  Jack Katto
+                </label>,
+                <input
+                  aria-label="Search"
+                  className="form-control mr-sm-2"
+                  placeholder="Search"
+                  type="search"
+                />,
+                <button
+                  className="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>,
+              ],
+              "className": "form-inline my-2 my-lg-0",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jack Katto",
+                  "className": "mr-4 text-white small",
+                },
+                "ref": null,
+                "rendered": "Jack Katto",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-label": "Search",
+                  "className": "form-control mr-sm-2",
+                  "placeholder": "Search",
+                  "type": "search",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Search",
+                  "className": "btn btn-outline-success my-2 my-sm-0",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": "Search",
+                "type": "button",
+              },
+            ],
+            "type": "form",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            className="navbar-brand"
+            href="/"
+          >
+            StackOverflow-Lite
+          </a>,
+          <button
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-target="#navbarSupportedContent"
+            data-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>,
+          <div
+            className="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul
+              className="navbar-nav mr-auto"
+            >
+              <li
+                className="nav-item active"
+              >
+                <a
+                  className="nav-link"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+            </ul>
+            <form
+              className="form-inline my-2 my-lg-0"
+            >
+              <label
+                className="mr-4 text-white small"
+              >
+                Jack Katto
+              </label>
+              <input
+                aria-label="Search"
+                className="form-control mr-sm-2"
+                placeholder="Search"
+                type="search"
+              />
+              <button
+                className="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>,
+        ],
+        "className": "navbar navbar-expand-lg navbar-dark bg-dark",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "StackOverflow-Lite",
+            "className": "navbar-brand",
+            "href": "/",
+          },
+          "ref": null,
+          "rendered": "StackOverflow-Lite",
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-controls": "navbarSupportedContent",
+            "aria-expanded": "false",
+            "aria-label": "Toggle navigation",
+            "children": <span
+              className="navbar-toggler-icon"
+            />,
+            "className": "navbar-toggler",
+            "data-target": "#navbarSupportedContent",
+            "data-toggle": "collapse",
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "navbar-toggler-icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ul
+                className="navbar-nav mr-auto"
+              >
+                <li
+                  className="nav-item active"
+                >
+                  <a
+                    className="nav-link"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+              </ul>,
+              <form
+                className="form-inline my-2 my-lg-0"
+              >
+                <label
+                  className="mr-4 text-white small"
+                >
+                  Jack Katto
+                </label>
+                <input
+                  aria-label="Search"
+                  className="form-control mr-sm-2"
+                  placeholder="Search"
+                  type="search"
+                />
+                <button
+                  className="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>,
+            ],
+            "className": "collapse navbar-collapse",
+            "id": "navbarSupportedContent",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <li
+                  className="nav-item active"
+                >
+                  <a
+                    className="nav-link"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>,
+                "className": "navbar-nav mr-auto",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="nav-link"
+                    href="/"
+                  >
+                    Home
+                  </a>,
+                  "className": "nav-item active",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Home",
+                    "className": "nav-link",
+                    "href": "/",
+                  },
+                  "ref": null,
+                  "rendered": "Home",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              "type": "ul",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    className="mr-4 text-white small"
+                  >
+                    Jack Katto
+                  </label>,
+                  <input
+                    aria-label="Search"
+                    className="form-control mr-sm-2"
+                    placeholder="Search"
+                    type="search"
+                  />,
+                  <button
+                    className="btn btn-outline-success my-2 my-sm-0"
+                    type="submit"
+                  >
+                    Search
+                  </button>,
+                ],
+                "className": "form-inline my-2 my-lg-0",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Jack Katto",
+                    "className": "mr-4 text-white small",
+                  },
+                  "ref": null,
+                  "rendered": "Jack Katto",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-label": "Search",
+                    "className": "form-control mr-sm-2",
+                    "placeholder": "Search",
+                    "type": "search",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Search",
+                    "className": "btn btn-outline-success my-2 my-sm-0",
+                    "type": "submit",
+                  },
+                  "ref": null,
+                  "rendered": "Search",
+                  "type": "button",
+                },
+              ],
+              "type": "form",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
