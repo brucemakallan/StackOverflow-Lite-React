@@ -20,6 +20,7 @@ const registerUserThunk = user => (dispatch) => {
 	return axios.post(registerUrl, user)
 		.then((response) => {
 			dispatch(userRegistrationSuccess(response.data));
+			window.location.replace('/');
 		})
 		.catch((error) => {
 			dispatch(errorAction(error.response.data.status_code));

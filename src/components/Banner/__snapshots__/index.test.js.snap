@@ -1,0 +1,511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> component tests renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Banner />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <NavBar
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        />,
+        <div
+          className="poster"
+        >
+          <div
+            className="intro"
+          >
+            <h1
+              className="main-heading"
+            >
+              StackOverflow-Lite
+            </h1>
+            <div
+              className="tagline"
+            >
+              Your one-stop shop for Answers to all your questions
+            </div>
+          </div>
+          <div
+            className="signup-msg text-center"
+          >
+            <span
+              className="mr-3"
+            >
+              Don't have an account with us?
+            </span>
+            <a
+              className="btn btn-primary btn-sm"
+              href="/signup"
+            >
+              Signup
+            </a>
+          </div>
+        </div>,
+      ],
+      "className": "banner",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "history": Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="intro"
+            >
+              <h1
+                className="main-heading"
+              >
+                StackOverflow-Lite
+              </h1>
+              <div
+                className="tagline"
+              >
+                Your one-stop shop for Answers to all your questions
+              </div>
+            </div>,
+            <div
+              className="signup-msg text-center"
+            >
+              <span
+                className="mr-3"
+              >
+                Don't have an account with us?
+              </span>
+              <a
+                className="btn btn-primary btn-sm"
+                href="/signup"
+              >
+                Signup
+              </a>
+            </div>,
+          ],
+          "className": "poster",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="main-heading"
+                >
+                  StackOverflow-Lite
+                </h1>,
+                <div
+                  className="tagline"
+                >
+                  Your one-stop shop for Answers to all your questions
+                </div>,
+              ],
+              "className": "intro",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "StackOverflow-Lite",
+                  "className": "main-heading",
+                },
+                "ref": null,
+                "rendered": "StackOverflow-Lite",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Your one-stop shop for Answers to all your questions",
+                  "className": "tagline",
+                },
+                "ref": null,
+                "rendered": "Your one-stop shop for Answers to all your questions",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="mr-3"
+                >
+                  Don't have an account with us?
+                </span>,
+                <a
+                  className="btn btn-primary btn-sm"
+                  href="/signup"
+                >
+                  Signup
+                </a>,
+              ],
+              "className": "signup-msg text-center",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Don't have an account with us?",
+                  "className": "mr-3",
+                },
+                "ref": null,
+                "rendered": "Don't have an account with us?",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Signup",
+                  "className": "btn btn-primary btn-sm",
+                  "href": "/signup",
+                },
+                "ref": null,
+                "rendered": "Signup",
+                "type": "a",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <NavBar
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+          />,
+          <div
+            className="poster"
+          >
+            <div
+              className="intro"
+            >
+              <h1
+                className="main-heading"
+              >
+                StackOverflow-Lite
+              </h1>
+              <div
+                className="tagline"
+              >
+                Your one-stop shop for Answers to all your questions
+              </div>
+            </div>
+            <div
+              className="signup-msg text-center"
+            >
+              <span
+                className="mr-3"
+              >
+                Don't have an account with us?
+              </span>
+              <a
+                className="btn btn-primary btn-sm"
+                href="/signup"
+              >
+                Signup
+              </a>
+            </div>
+          </div>,
+        ],
+        "className": "banner",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "history": Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="intro"
+              >
+                <h1
+                  className="main-heading"
+                >
+                  StackOverflow-Lite
+                </h1>
+                <div
+                  className="tagline"
+                >
+                  Your one-stop shop for Answers to all your questions
+                </div>
+              </div>,
+              <div
+                className="signup-msg text-center"
+              >
+                <span
+                  className="mr-3"
+                >
+                  Don't have an account with us?
+                </span>
+                <a
+                  className="btn btn-primary btn-sm"
+                  href="/signup"
+                >
+                  Signup
+                </a>
+              </div>,
+            ],
+            "className": "poster",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1
+                    className="main-heading"
+                  >
+                    StackOverflow-Lite
+                  </h1>,
+                  <div
+                    className="tagline"
+                  >
+                    Your one-stop shop for Answers to all your questions
+                  </div>,
+                ],
+                "className": "intro",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "StackOverflow-Lite",
+                    "className": "main-heading",
+                  },
+                  "ref": null,
+                  "rendered": "StackOverflow-Lite",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Your one-stop shop for Answers to all your questions",
+                    "className": "tagline",
+                  },
+                  "ref": null,
+                  "rendered": "Your one-stop shop for Answers to all your questions",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="mr-3"
+                  >
+                    Don't have an account with us?
+                  </span>,
+                  <a
+                    className="btn btn-primary btn-sm"
+                    href="/signup"
+                  >
+                    Signup
+                  </a>,
+                ],
+                "className": "signup-msg text-center",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Don't have an account with us?",
+                    "className": "mr-3",
+                  },
+                  "ref": null,
+                  "rendered": "Don't have an account with us?",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Signup",
+                    "className": "btn btn-primary btn-sm",
+                    "href": "/signup",
+                  },
+                  "ref": null,
+                  "rendered": "Signup",
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
